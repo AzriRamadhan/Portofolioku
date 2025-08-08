@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porto - web</title>
+
+    <Link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    
+    <nav class="nav">
+    <span class="logo">Azri Ramadhan</span>
+    <div class="nav-item">
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="skills.html">Skills</a></li>
+      </ul> 
+    </div>
+
+         <div class="toggle-container">
+    <button class="toggle" onclick="toggleMode()">Ganti Mode</button>
+         </div>
+
+        <a href="https://wa.me/62881025135598" target="_blank">
+             <button class="btn-contact">Contact Me</button>
+        </a>
+        </nav>
+         <div class="skill-section">
+      <h4>My Skills</h4>
+      <div class="skill-container">
+        <div class="card">
+          <div class="card-header">
+            <p>Html</p>
+            <i class="ri-html5-fill"></i>
+          </div>
+          <div class="card-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo dolore voluptatibus repellendus amet ullam culpa autem alias quibusdam deleniti magni reprehenderit harum reiciendis, corrupti hic cupiditate minus nihil rerum? Voluptatem.
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <p>JS</p>
+            <i class="ri-javascript-fill"></i>
+          </div>
+          <div class="card-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo dolore voluptatibus repellendus amet ullam culpa autem alias quibusdam deleniti magni reprehenderit harum reiciendis, corrupti hic cupiditate minus nihil rerum? Voluptatem.
+          </div>
+         </div>
+       </div>
+     </div>
+        <footer>My Copyright</footer>
+    <script>
+    document.body.classList.add("light-mode");
+
+    function toggleMode() {
+      document.body.classList.toggle("light-mode");
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+
+</body>
+</html>
